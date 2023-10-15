@@ -1,0 +1,68 @@
+#!/bin/env python3
+# Created by atbswp v0.3.1 (https://git.sr.ht/~rmpr/atbswp)
+# on 26 Sep 2023 
+import pyautogui
+import time
+pyautogui.FAILSAFE = False
+
+# click on tower (search)
+time.sleep(0.300)
+pyautogui.moveTo(690, 977)
+pyautogui.mouseDown(690, 977, 'left')
+pyautogui.mouseUp(690, 977, 'left')
+
+# click on GO for the first citadel
+time.sleep(0.500)
+pyautogui.moveTo(1184, 630)
+pyautogui.mouseDown(1184, 630, 'left')
+pyautogui.mouseUp(1184, 630, 'left')
+
+# click on citadel
+time.sleep(1.200)
+pyautogui.moveTo(961, 607)
+pyautogui.mouseDown(959, 606, 'left')
+pyautogui.mouseUp(960, 606, 'left')
+
+# click on "Attack"
+time.sleep(0.600)
+pyautogui.mouseDown(958, 736, 'left')
+pyautogui.mouseUp(958, 736, 'left')
+
+# click on "Select all"
+time.sleep(0.500)
+pyautogui.moveTo(885, 820)
+pyautogui.mouseDown(885, 820, 'left')
+pyautogui.mouseUp(885, 820, 'left')
+
+# click on "Start march"
+time.sleep(0.400)
+pyautogui.mouseDown(855, 864, 'left')
+pyautogui.mouseUp(855, 864, 'left')
+
+# click on speed-up
+time.sleep(1.700)
+pyautogui.mouseDown(1233, 192, 'left')
+pyautogui.mouseUp(1233, 192, 'left')
+
+# use 5 speedups
+time.sleep(0.400)
+pyautogui.mouseDown(1117, 542, 'left')
+pyautogui.mouseUp(1117, 542, 'left')
+time.sleep(0.100)
+pyautogui.mouseDown(1117, 542, 'left')
+pyautogui.mouseUp(1117, 542, 'left')
+time.sleep(0.100)
+pyautogui.mouseDown(1117, 542, 'left')
+pyautogui.mouseUp(1117, 542, 'left')
+time.sleep(0.200)
+pyautogui.mouseDown(1117, 542, 'left')
+pyautogui.mouseUp(1117, 542, 'left')
+time.sleep(0.200)
+pyautogui.mouseDown(1117, 542, 'left')
+pyautogui.mouseUp(1117, 542, 'left')
+time.sleep(0.400)
+pyautogui.mouseDown(1117, 542, 'left')
+pyautogui.mouseUp(1117, 542, 'left')
+
+# wait 2 min
+time.sleep(120.00)

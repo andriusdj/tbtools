@@ -1,0 +1,116 @@
+#!/bin/env python3
+# Created by atbswp v0.3.1 (https://git.sr.ht/~rmpr/atbswp)
+# on 03 Apr 2023 
+import pyautogui
+import time
+pyautogui.FAILSAFE = False
+
+# activate window
+pyautogui.mouseDown(1404, 736, 'left')
+pyautogui.mouseUp(1404, 736, 'left')
+
+# drag slider to 1 unit
+pyautogui.mouseDown(1378, 738, 'left')
+pyautogui.moveTo(1369, 738)
+pyautogui.moveTo(1354, 738)
+pyautogui.moveTo(1337, 738)
+pyautogui.moveTo(1321, 738)
+pyautogui.moveTo(1305, 738)
+pyautogui.moveTo(1290, 738)
+pyautogui.moveTo(1274, 738)
+pyautogui.moveTo(1256, 738)
+pyautogui.moveTo(1239, 738)
+pyautogui.moveTo(1223, 738)
+pyautogui.moveTo(1208, 738)
+pyautogui.moveTo(1193, 738)
+pyautogui.moveTo(1178, 738)
+pyautogui.moveTo(1163, 738)
+pyautogui.mouseUp(1150, 738, 'left')
+
+# click buy
+pyautogui.mouseDown(1335, 812, 'left')
+pyautogui.mouseUp(1335, 812, 'left')
+time.sleep(0.5)
+
+# click help
+pyautogui.mouseDown(1579, 376, 'left')
+pyautogui.mouseUp(1578, 376, 'left')
+
+# click help all on another account
+
+#1
+pyautogui.mouseDown(825, 853, 'left')
+pyautogui.mouseUp(825, 853, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(825, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+pyautogui.mouseDown(824, 847, 'left')
+pyautogui.mouseUp(824, 847, 'left')
+time.sleep(0.25)
+
+
+
+# click complete on previous
+pyautogui.mouseDown(1637, 376, 'left')
+pyautogui.mouseUp(1637, 376, 'left')
+
+
