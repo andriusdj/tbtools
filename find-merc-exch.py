@@ -102,6 +102,7 @@ def imagesearch(image, precision=0.8):
 
         res = cv2.matchTemplate(img_gray, template, cv2.TM_CCOEFF_NORMED)
         min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
+
         if max_val < precision:
             return [-1, -1]
         return max_loc
@@ -133,6 +134,6 @@ def imagesearch_loop(image, timesample, precision=0.8):
 
 
 while True:
-    pos = imagesearch_loop("./exchange25.png", 0.2)
+    pos = imagesearch_loop("./exchange25.png", 0.1)
     beepy.beep("coin")
 
